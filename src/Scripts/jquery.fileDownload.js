@@ -156,7 +156,7 @@ $.extend({
 
             isIos = true;
 
-        } else if (userAgent.indexOf('android') !== -1) {
+        } else if (userAgent.indexOf('android') !== -1 && userAgent.indexOf('chrome') === -1 && userAgent.indexOf('firefox') === -1) {
 
             isAndroid = true;
 
